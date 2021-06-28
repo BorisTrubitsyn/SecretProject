@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/simpleRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="RecyclerView" />
+
+    <Button
+        android:id="@+id/simpleExpandableRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleRecyclerView"
+        android:layout_marginBottom="20dp"
+        android:text="ExpandableRecyclerView" />
+
+    <Button
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/simpleExpandableRecyclerView"
+        android:layout_marginBottom="20dp"
+        android:text="Fragment" />
+
+    <Button
+        android:id="@+id/alertDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragment"
+        android:layout_marginBottom="20dp"
+        android:text="CustomAlertDialog" />
+
+</RelativeLayout>
