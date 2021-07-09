@@ -1,10 +1,10 @@
-package com.example.simplefragment
+package com.example.secretProject
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.simplefragment.recyclerView.RecyclerViewActivity
+import com.example.secretProject.recyclerView.RecyclerViewActivity
 
 class MainActivity : AppCompatActivity() {
 

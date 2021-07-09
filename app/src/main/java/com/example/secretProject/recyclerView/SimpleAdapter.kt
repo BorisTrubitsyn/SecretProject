@@ -1,11 +1,11 @@
-package com.example.simplefragment.recyclerView
+package com.example.secretProject.recyclerView
 
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
-import com.example.simplefragment.R
-import com.example.simplefragment.inflateView
+import com.example.secretProject.R
+import com.example.secretProject.inflateView
 
 class SimpleAdapter(
     @LayoutRes

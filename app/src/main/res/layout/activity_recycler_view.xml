@@ -6,18 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".recyclerView.RecyclerViewActivity">
 
-    <TextView
+    <LinearLayout
         android:id="@+id/textViewTitle"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/clickable_size"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:layout_margin="@dimen/spacing_tiny_large"
-        android:background="@drawable/background_rounded"
-        android:gravity="center"
-        android:text="@string/recyclerview_title"
-        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@id/simpleRecyclerview"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/clickable_size"
+            android:layout_gravity="center"
+            android:layout_weight="0.1"
+            android:background="@drawable/background_rounded"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/clickable_size"
+            android:layout_margin="@dimen/spacing_tiny_large"
+            android:layout_weight="1"
+            android:background="@drawable/background_rounded"
+            android:gravity="center"
+            android:textSize="@dimen/font_medium"
+            android:text="@string/recyclerview_title"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/simpleRecyclerview"
