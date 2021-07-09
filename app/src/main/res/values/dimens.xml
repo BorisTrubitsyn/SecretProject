@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_padding_horizontal">8dp</dimen>
+    <dimen name="screen_padding_vertical">8dp</dimen>
+    <dimen name="login_corners">5dp</dimen>
+    <dimen name="registration_editable_corners">5dp</dimen>
+    <dimen name="search_view_corners">2dp</dimen>
+    <dimen name="registration_clickable_size">40dp</dimen>
+    <dimen name="inputlayout_clickable_size">60dp</dimen>
+    <dimen name="registration_field_horizontal_padding">4dp</dimen>
+    <dimen name="services_button_corners">8dp</dimen>
+    <dimen name="services_item_vertical_padding">4dp</dimen>
+    <dimen name="search_layout_height">64dp</dimen>
+
+    <dimen name="clickable_size_xsmall">24dp</dimen>
+    <dimen name="clickable_size_small">36dp</dimen>
+    <dimen name="clickable_size">48dp</dimen>
+    <dimen name="clickable_size_large">56dp</dimen>
+    <dimen name="clickable_size_xlarge">64dp</dimen>
+    <dimen name="print_check_text_size">22sp</dimen>
+
+    <dimen name="spacing_tiny_small">2dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_tiny_large">6dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_xmedium">10dp</dimen>
+    <dimen name="spacing_xsmall">12dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_medium_large">18dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+
+    <dimen name="font_small">6sp</dimen>
+    <dimen name="font_small_medium">8sp</dimen>
+    <dimen name="font_small_xmedium">10sp</dimen>
+    <dimen name="font_small_large">12sp</dimen>
+    <dimen name="font_xmedium">13sp</dimen>
+    <dimen name="font_xxmedium">14sp</dimen>
+    <dimen name="font_medium">16sp</dimen>
+    <dimen name="font_medium_large">18sp</dimen>
+    <dimen name="font_large">24sp</dimen>
+    <dimen name="font_xlarge">28sp</dimen>
+    <dimen name="font_xxlarge">36sp</dimen>
+
+    <dimen name="corners_radius_medium">8dp</dimen>
+    <dimen name="corners_radius_small">4dp</dimen>
+    <dimen name="item_elevation">4dp</dimen>
+    <dimen name="service_item_lane_width">350dp</dimen>
+    <dimen name="service_item_lane_height">156dp</dimen>
+    <dimen name="registration_bottom_bar_height">74dp</dimen>
+    <dimen name="recognized_image_height">230dp</dimen>
+
+    <dimen name="showMoreButtonHeight">40dp</dimen>
+    <dimen name="toolbar_size">56dp</dimen>
+    <dimen name="toolbar_size_table">36dp</dimen>
+    <dimen name="time_line_height">2dp</dimen>
+    <dimen name="table_time_width">50dp</dimen>
+</resources>

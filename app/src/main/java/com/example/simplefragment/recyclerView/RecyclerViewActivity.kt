@@ -7,16 +7,6 @@ import com.example.simplefragment.R
 class RecyclerViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_recycer_view)
-        initListeners()
-        initAdapter()
-    }
-
-    private fun initAdapter() {
-        TODO("Not yet implemented")
-    }
-
-    private fun initListeners() {
-        TODO("Not yet implemented")
+        setContentView(R.layout.activity_recycler_view)
     }
 }
