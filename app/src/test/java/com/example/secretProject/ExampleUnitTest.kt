@@ -1,4 +1,4 @@
-package com.example.simplefragment
+package com.example.secretProject
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
