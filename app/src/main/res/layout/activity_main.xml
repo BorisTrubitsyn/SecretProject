@@ -47,6 +47,22 @@
                 android:layout_below="@id/fragment"
                 android:layout_marginBottom="20dp"
                 android:text="CustomAlertDialog" />
+
+            <Button
+                android:id="@+id/sharedPreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment"
+                android:layout_marginBottom="20dp"
+                android:text="SharedPreferences" />
+
+            <Button
+                android:id="@+id/sendPushNotification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment"
+                android:layout_marginBottom="20dp"
+                android:text="SendPushNotification" />
         </LinearLayout>
 
     </LinearLayout>
