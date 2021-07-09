@@ -16,7 +16,13 @@ class MainActivity : AppCompatActivity() {
 
     private fun initListeners() {
         val buttonRecyclerView = findViewById<Button>(R.id.buttonRecyclerView)
+        val buttonExpandableRecyclerView = findViewById<Button>(R.id.simpleExpandableRecyclerView)
+        //recyclerview
         buttonRecyclerView.setOnClickListener {
+            startActivity(Intent(this, RecyclerViewActivity::class.java))
+        }
+        //expandable group recyclerview
+        buttonExpandableRecyclerView.setOnClickListener {
             startActivity(Intent(this, RecyclerViewActivity::class.java))
         }
     }
